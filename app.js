@@ -1,9 +1,5 @@
 $(document).ready(function () {
-    /*var url = 'https://api.instagram.com/v1/tags/cat/media/recent';
-   var params = {
-        access_token = '175248726.5787f40.a5de342ca8d84f08b57294de6a37ab88'
-            //client_id: '0af385bbcbfd495e901da7aeb427f0f7',
-    };*/
+
     /*$.ajax({
         url: url,
         data: params,
