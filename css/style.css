@@ -1,0 +1,97 @@
+        /*
+The CSS code gets to executed from top to bottom and left to right
+*/
+        /* CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+            box-sizing: border-box;
+            /*reset Chrome user agent styles*/
+            -webkit-margin-before: 0px;
+            -webkit-margin-after: 0px;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-before: 0px;
+            -webkit-padding-after: 0px;
+            -webkit-padding-start: 0px;
+            -webkit-padding-end: 0px;
+        }
+        /* General styles
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules below (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+        body {
+            background-color: #F0ECEC;
+        }
+
+        .main-wrapper {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 1rem;
+            text-align: center;
+        }
+        /* Header styles
+(all the styles inside the < header > or < nav > tags)
+*/
+        /* Content styles
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+        .user-search {
+            margin: 1rem;
+        }
+
+        #tag-search {
+            width: 30rem;
+            height: 3rem;
+            padding: .5rem;
+            font-size: 1rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid;
+            border-radius: 3px;
+        }
+
+        .search-results {}
+
+        .results-list li {}
+
+        .explore {
+            text-align: left;
+        }
+
+        .explore-stream {
+            display: inline-block;
+        }
+
+        ul.explore-list {
+            list-style: none;
+        }
+
+        ul.explore-list li {
+            display: inline-block;
+            padding: 1rem;
+        }
+
+        ul.explore-list li img {
+            width: 15rem;
+            height: 15rem;
+        }
+        /* Footer styles
+(all the styles inside the < footer > tag)
+*/
+        /* Responsive styles
+(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
